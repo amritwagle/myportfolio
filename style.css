@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+}
+
+.brand{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+img{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+
+}
+
+.name_container{
+	display: flex;
+	justify-content: center;
+}
+
+.name{
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+	margin-top: 5px;
+}
+
+.navbar{
+	margin: 20px 0 0 0;
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+	column-gap: 15px;
+}
+
+ul>li{
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+ul>li>a{
+	text-decoration: none;
+	color: black;
+	text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+	color: orangered;
+}
+
+ul>li>a:hover{
+	color: #969696;
+}
+
+ul>li>a:active{
+	color: #969696;
+}
+
+.about_container{
+	margin: 45px 0 10px 0;
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+.about{
+	text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
+.inner_container{
+	height: 70px;
+	width: 750px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.about_text{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
+.social{
+	text-align: center;
+}
+
+.fa{
+	padding: 5px;
+  	font-size: 30px;
+  	width: 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	border-radius: 50%;
+  	color: orangered;
+}
+
+.hire_section{
+	display: flex;
+	height: 70px;
+	margin-top: 8px;
+}
+
+.hire_btn{
+	border: 2px solid orangered;
+	border-radius: 7px;
+	justify-content: center;
+	margin: auto;
+	background-color: orangered;
+}
+
+.hire_btn>h4{
+	padding: 4px;
+}
+
+.hire_link{
+	text-decoration: none;
+	color: white;
+}
+
+.hire_btn:hover{
+	cursor: pointer;
+	box-shadow: 10px 10px 11px -7px rgba(0,0,0,0.56);
+-webkit-box-shadow: 10px 10px 11px -7px rgba(0,0,0,0.56);
+-moz-box-shadow: 10px 10px 11px -7px rgba(0,0,0,0.56);
+}
